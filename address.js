@@ -39,7 +39,7 @@
 	// Add into the address book function
 	function addToBook(){
 
-		if (fullname!=="" && phone!=="" && address!=="" && city!=="" && email!=="") 
+		if (fullname.value!=="" && phone.value!=="" && address.value!=="" && city.value!=="" && email.value!=="") 
 		{
 			var newObj = new jsonStructure(fullname.value,  phone.value,  address.value, city.value, email.value) ;
 			addressBook.push(newObj);
